@@ -1,0 +1,21 @@
+# Downloaded by scripts/setup.sh -- not checked in (large binary + JVM jars)
+/maelstrom/
+maelstrom.tar.bz2
+
+# Written by every `maelstrom test` run
+store/
+**/store/
+
+# Compiled binaries from `go build -o <name> .` in each challenge folder
+challenges/*/echo
+challenges/*/unique_ids
+challenges/*/unique_ids_race
+challenges/*/broadcast
+challenges/*/broadcast_race
+challenges/*/counter
+reference_solutions/*/echo
+reference_solutions/*/unique_ids
+reference_solutions/*/unique_ids_race
+reference_solutions/*/broadcast
+reference_solutions/*/broadcast_race
+reference_solutions/*/counter
